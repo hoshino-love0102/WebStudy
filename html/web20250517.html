@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="join">팬클럽 가입 신청</h2>
+    <h3>로그인</h3>
+    <form>
+        <label>아이디: <input type="text" minlength="6" maxlength="12" required></label><br>
+        <label>비밀번호: <input type="password" required></label><br>
+        <input type="submit" value="로그인">
+        <input type="reset" value="다시쓰기">
+    </form>
+    <h3>가입 정보</h3>
+    <form>
+        <fieldset>
+            <legend>굿즈 선택</legend>
+            <label><input type="checkbox" name="goods" value="badge"> 호시노 뱃지</label><br>
+            <label><input type="checkbox" name="goods" value="poster" checked> 포스터</label><br>
+            <label><input type="checkbox" name="goods" value="keyring"> 키링</label><br>
+            <label><input type="checkbox" name="goods" value="fig"> 피규어</label><br>
+        <p>굿즈 수량: <input type="number" min="1" max="10" value="1"></p>
+        <p>배송 날짜 선택: <input type="datetime-local"></p>
+        <p>포장 여부:</p>
+        <label><input type="radio" name="wrap" value="yes"> 포장</label>
+        <label><input type="radio" name="wrap" value="no" checked> 포장 안 함</label><br>
+        <p>특이사항: <textarea rows="4" cols="40"></textarea></p>
+        </fieldset>
+        <input type="submit" value="가입 신청">
+    </form>
+</body>
+</html>
