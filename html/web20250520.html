@@ -2,13 +2,23 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>박스</title>
+  <title>Box Model</title>
   <link rel="stylesheet" href="../css/web20250520.css" />
 </head>
 <body>
-  <h1>박스 모델 실습</h1>
+  <main class="container">
+    <h1>Box Model 실습</h1>
+    <p class="desc">박스 둘다 <code>width: 200px</code>로 설정되어 있지만, <strong>box-sizing</strong>에 따라 실제 크기가 다르게 보임</p>
 
-  <div class="box content-box">content-box</div>
-  <div class="box border-box">border-box</div>
+    <div class="box content-box">
+      <h2>content-box</h2>
+      <p>기본 box-sizing.<br>패딩&보더는 width에 <strong>포함되지 않음</strong></p>
+    </div>
+
+    <div class="box border-box">
+      <h2>border-box</h2>
+      <p>패딩과 보더가 width에 <strong>포함됨</strong></p>
+    </div>
+  </main>
 </body>
 </html>
