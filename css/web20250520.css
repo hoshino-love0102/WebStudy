@@ -1,0 +1,29 @@
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 5px solid #007bff;
+  margin: 20px;
+  background-color: #e0f0ff;
+  font-size: 1.2em;
+  line-height: 100px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+  background-color: #d3fcd3;
+}
+
+.box:hover {
+  background-color: #ffefba;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
