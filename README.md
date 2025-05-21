@@ -26,3 +26,8 @@ hover 시 색상, 크기, 그림자 변화 효과 추가
 container로 중앙 정렬 및 반응형 레이아웃 구성
 
 ## 2025/05/21
+Flexbox로 카드형 레이아웃 구성
+푸터를 화면 바닥에 고정 (min-height: 100vh, margin-top: auto)
+이미지 원형 처리 (border-radius: 50%, object-fit: cover)
+hover 시 카드 배경에 그라데이션 효과 적용
+미디어쿼리로 반응형 카드 정렬 (모바일: 세로, PC: 가로)
