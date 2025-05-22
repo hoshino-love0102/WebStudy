@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background: #f0f8ff;
+}
+
+.card {
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  background: white;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  background: linear-gradient(135deg, #c0e0ff, #f0faff);
+  transform: scale(1.03);
+}
+
+#myImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: 0.3s;
+}
