@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>정신 건강 지킴이</title>
+  <link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+  <header>
+    <h1>정신 건강 지킴이</h1>
+    <p>“정신 건강은 몸의 건강만큼 중요합니다”</p>
+    <nav>
+      <a href="main.html">홈</a>
+      <a href="info.html">정보</a>
+      <a href="board.html">커뮤니티</a>
+      <a href="relax.html">마음 쉼터</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>대표 메뉴</h2>
+    <div class="btn" onclick="location.href='info.html'">자가진단 바로가기</div>
+    <div class="btn" onclick="openWritePopup()">고민 나눔 글쓰기</div>
+    <p>오늘의 마음글: "오늘 하루도 수고했어요. 당신은 소중한 사람입니다."</p>
+  </div>
+
+  <footer>
+    <p>(주) 암소의 첫사랑</p>
+  </footer>
+
+  <script>
+    function openWritePopup() {
+      window.open("write.html", "popupWindow", "width=500,height=400,top=100,left=100");
+    }
+  </script>
+</body>
+</html>
