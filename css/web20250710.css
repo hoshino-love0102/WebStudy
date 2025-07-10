@@ -121,6 +121,24 @@ body {
   color: #ff7e3c;
 }
 
+.social-links li a i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.github i {
+  color: #ffffff;
+}
+
+.instagram i {
+  color: #e1306c;
+}
+
+.velog i {
+  color: #20c997;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
