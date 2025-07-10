@@ -30,5 +30,13 @@
       항상 더 나은 결과물을 위해 노력하고, 사용자를 생각하는 개발자가 되고 싶습니다.</p>
     </div>
   </section>
+  <script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+  </script>
 </body>
 </html>
