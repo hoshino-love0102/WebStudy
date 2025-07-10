@@ -1,3 +1,4 @@
+/* 기본 초기화 */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +19,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 
 .navbar .logo {
@@ -44,24 +44,11 @@ body {
   color: #ff3c3c;
 }
 
-/* 햄버거 */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background: #fff;
-  transition: all 0.3s ease;
-}
-
-/* ABOUT */
+/* ABOUT 섹션 */
 .about {
-  padding: 100px 50px;
+  /* padding: 100px 50px; */
+  margin-top: 15%;
+  padding: 0 50px;
 }
 
 .about h1 {
@@ -93,43 +80,4 @@ body {
   font-size: 1.2rem;
   line-height: 1.6;
   color: #aaa;
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: #111;
-    width: 200px;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    gap: 20px;
-    display: none;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .about-content {
-    flex-direction: column;
-  }
-
-  .about h1 {
-    font-size: 2.5rem;
-  }
-
-  .about-content .highlight {
-    font-size: 1.5rem;
-  }
-
-  .about-content p {
-    font-size: 1rem;
-  }
 }
