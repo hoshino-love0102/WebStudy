@@ -1,0 +1,103 @@
+/* 전체 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* 상단 배너 */
+.top-banner {
+  background-color: #456a5e;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+/* 헤더 */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.user-actions span {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+/* 메인 배너 */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1582582494700-c2e6b85cf60e'); /* 예시 이미지 */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 카테고리 */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.category-box {
+  font-size: 18px;
+  padding: 20px;
+  width: 120px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
